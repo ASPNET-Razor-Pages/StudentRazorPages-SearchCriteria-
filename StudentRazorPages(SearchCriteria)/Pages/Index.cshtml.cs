@@ -28,7 +28,7 @@ namespace StudentRazorPages_SearchCriteria_.Pages
             Repo = repo;
             Students = Repo.GetStudents();
         }
-        public IActionResult OnGet()
+        public IActionResult OnGet()    
         {
             
             // Check filter criteria here 
